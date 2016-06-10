@@ -6918,13 +6918,13 @@ body {
   border-width: 0 0 2px;
 }
 .navbar-brand {
-  font-weight: 700;
-  background: url("https://storj.io/img/logo-blue.svg");
+  background: url("../img/logo.svg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   color: transparent !important;
   margin-right: 20px;
+  width: 159px;
 }
 img.branding-logo {
   max-height: 30px;
