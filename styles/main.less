@@ -2,7 +2,11 @@
 @import "variables.less";
 @import "bootswatch.less";
 
-@headerHeight: 62px;
+@headerHeight: 99px;
+
+body {
+  padding-top: 4em;
+}
 
 #main {
   margin-top : @headerHeight;
@@ -14,6 +18,12 @@
 	padding-right : 20px;
   }
 }
+.navbar-fixed-top {
+    border-width: 0 0 2px;
+}
+.navbar-brand {
+    font-weight: 700;
+}
 
 img.branding-logo{
   max-height: 30px;
@@ -24,7 +34,7 @@ img.branding-logo{
 
 #toc {
   position   : fixed;
-  top        : @headerHeight;
+  top        : @headerHeight + 10px;
   right      : 0;
   @toc-bottom: @headerHeight + 10px;
   max-height : 82%;
@@ -79,8 +89,9 @@ img.branding-logo{
 }
 
 footer {
-  border-top  : 1px solid  @navbar-inverse-link-hover-bg;
-  padding-top : 15px;
+  border-top  : 1px solid  @gray-lighter;
+  padding-top : 20px;
+  margin-top  : 20px;
 }
 
 code {
@@ -120,7 +131,13 @@ code {
   margin-top: -100px !important;
 }
 
-
+.sunlight-container {
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 20px !important;
+  border: 1px solid #bbb;
+}
 .sunlight-highlighted {
   margin           : 0;
   line-height      : auto;
@@ -128,7 +145,10 @@ code {
   word-wrap        : normal;
   white-space      : pre;
   background-color : transparent;
-  border           : none;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 9px;
+  border: 1px solid #ddd;
 }
 
 .sunlight-line-number-margin {
