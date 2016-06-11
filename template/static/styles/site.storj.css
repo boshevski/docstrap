@@ -6928,6 +6928,10 @@ body {
   position: relative;
   left: 15px;
 }
+.navbar-form {
+  border: 0;
+  padding: 0;
+}
 img.branding-logo {
   max-height: 30px;
   display: inline-block;
