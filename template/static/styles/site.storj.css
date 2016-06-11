@@ -7064,6 +7064,10 @@ blockquote {
   line-height: 15px;
   padding: 11px 4px !important;
 }
+.hljs {
+  padding: 1em;
+  background: #fff;
+}
 .dropdown-menu {
   overflow-y: auto;
   max-height: 150px;
