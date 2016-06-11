@@ -7033,6 +7033,9 @@ blockquote {
   margin-bottom: 20px !important;
   border: 1px solid #bbb;
 }
+.sunlight-menu {
+  display: none;
+}
 .sunlight-highlighted {
   margin: 0;
   line-height: auto;
