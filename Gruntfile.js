@@ -174,9 +174,7 @@ var tasks = {
 			files : {
 				'template/static/scripts/docstrap.lib.js' : [
 					'bower_components/jquery/dist/jquery.min.js',
-					'bower_components/sunlight/src/sunlight.js',
-					'bower_components/sunlight/src/lang/sunlight.xml.js',
-					'bower_components/sunlight/src/**/*.js',
+					'bower_components/highlightjs/highlight.pack.min.js',
 
 					'bower_components/jquery.scrollTo/jquery.scrollTo.min.js',
 					'bower_components/jquery.localScroll/jquery.localScroll.min.js',
